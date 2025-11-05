@@ -65,7 +65,7 @@
     "robotsSwitcher": true,
     "robotsText": "User-agent: Yandex\nUser-agent: Googlebot\nUser-agent: Yandex\nAllow: /\nUser-agent: Googlebot\nAllow: /\n\n\n",
     "favicon": "@PROJECT_PATH@/assets/images/android-icon-192x192.png",
-    "mbrsiteDomain": "7xzxat7dw0",
+    "mbrsiteDomain": "crtcvgdt6h",
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
     "siteUrl": "http://kraiton1.github.io/denb-voennogo-razvedchika/",
@@ -84,12 +84,12 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "С Днем Военной Разведки.. (2025)",
+        "title": "Мое поздравление - в День Военного Разведчика..",
         "meta_descr": "Желаю : Успехов в службе, находить правильное решение и выполнять все поставленные задачи..\nЖелаю: Крепкого здоровья и стойкости, Боевого духа и Невероятных сил..\nЖелаю : Счастья, Благополучия и Мирного неба над головой..\nЖелаю : Удачи, Смекалки, Упорства и Уверенности в достижении целей..",
         "header_custom": "<head>\n  <style>\n    img {\n      transition: transform 1.5s ease;\n    }\n\n    img:hover {\n      transform: scale(1.4);\n    }\n  </style>\n</head>",
-        "footer_custom": "",
+        "footer_custom": "<script type=\"text/javascript\">(function(w,doc) {\n    if (!w.__utlWdgt ) {\n        w.__utlWdgt = true;\n        var d = doc, s = d.createElement('script'), g = 'getElementsByTagName';\n        s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;\n        s.src = ('https:' == w.location.protocol ? 'https' : 'http')  + '://w.uptolike.com/widgets/v1/uptolike.js';\n        var h=d[g]('body')[0];\n        h.appendChild(s);\n    }})(window,document);\n</script>\n<div data-count-clicks=\"true\" data-icon-style=\"1\" data-text-size=\"10\" data-pid=\"2047469\" data-icon-size=\"30\" data-background-color=\"#ffffff\" data-icon-color=\"fa0101\" data-text-color=\"000000\" data-like-title=\"хорошо\" data-like-text=\"хорошо\" data-like-layout=\"tic\" class=\"uptolike-rating\"></div>",
         "html_before": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/android-icon-1-144x144.png"
+        "meta_image": "@PROJECT_PATH@/assets/images/65546.jpeg"
       },
       "components": [
         {
