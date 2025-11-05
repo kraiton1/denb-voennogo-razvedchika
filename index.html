@@ -78,6 +78,7 @@
     text-shadow: 0px -1px 1px #000000;
   }
 </style>
+
   <section data-bs-version="5.1" class="content6 cid-uY6KY1TXZb" id="content6-k">
     
     <div class="container">
@@ -274,7 +275,6 @@
     ];
   </script>
   <script type="text/javascript" src="https://www.radiobells.com/script/v2_1.js" charset="UTF-8"></script>
-<script async="async" src="https://w.uptolike.com/widgets/v1/zp.js?pid=2047304" type="text/javascript"></script>  
 <br>
 <br>
 <br>    
@@ -322,17 +322,36 @@
     <h2 style="text-align: center;"><strong><span style="font-family: Playfair Display; font-size: xxx-large;">&nbsp;<span style="color: red; font-family: &quot;Playfair Display&quot;font-size:; text-shadow: rgb(0, 0, 0) 0px 1px;">© Copyright 2025 All Rights Reserved</span></span></strong></h2>   
 </section><section id="top-1" hidden><a href="https://mobirise.site"></a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/sociallikes/social-likes.js"></script>  <script src="assets/theme/js/script.js"></script>  
   <script async="async" src="https://w.uptolike.com/widgets/v1/zp.js?pid=2047470" type="text/javascript"></script>
-  <script type="text/javascript">(function(w,doc) {
-    if (!w.__utlWdgt ) {
-        w.__utlWdgt = true;
-        var d = doc, s = d.createElement('script'), g = 'getElementsByTagName';
-        s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;
-        s.src = ('https:' == w.location.protocol ? 'https' : 'http')  + '://w.uptolike.com/widgets/v1/uptolike.js';
-        var h=d[g]('body')[0];
-        h.appendChild(s);
-    }})(window,document);
+  <script>
+document.oncontextmenu = cmenu; function cmenu() { return false; }
 </script>
-<div data-count-clicks="true" data-icon-style="1" data-text-size="10" data-pid="2047469" data-icon-size="30" data-background-color="#ffffff" data-icon-color="fa0101" data-text-color="000000" data-like-title="хорошо" data-like-text="хорошо" data-like-layout="tic" class="uptolike-rating"></div>
+<script>
+function preventSelection(element){
+  var preventSelection = false;
+  function addHandler(element, event, handler){
+  if (element.attachEvent) element.attachEvent('on' + event, handler);
+  else if (element.addEventListener) element.addEventListener(event, handler, false);  }
+  function removeSelection(){
+  if (window.getSelection) { window.getSelection().removeAllRanges(); }
+  else if (document.selection && document.selection.clear)
+  document.selection.clear();
+  }
+  addHandler(element, 'mousemove', function(){ if(preventSelection) removeSelection(); });
+  addHandler(element, 'mousedown', function(event){ var event = event || window.event; var sender = event.target || event.srcElement; preventSelection = !sender.tagName.match(/INPUT|TEXTAREA/i) ;});
+  function killCtrlA(event){
+  var event = event || window.event;
+  var sender = event.target || event.srcElement;
+  if (sender.tagName.match(/INPUT|TEXTAREA/i)) return;
+  var key = event.keyCode || event.which;
+  if ((event.ctrlKey && key == 'U'.charCodeAt(0)) || (event.ctrlKey && key == 'A'.charCodeAt(0)) || (event.ctrlKey && key == 'S'.charCodeAt(0)))  // 'A'.charCodeAt(0) можно заменить на 65
+  { removeSelection();
+  if (event.preventDefault) event.preventDefault();
+  else event.returnValue = false;}}
+  addHandler(element, 'keydown', killCtrlA);
+  addHandler(element, 'keyup', killCtrlA);
+}
+preventSelection(document);
+</script>
 
 </body>
 </html>
